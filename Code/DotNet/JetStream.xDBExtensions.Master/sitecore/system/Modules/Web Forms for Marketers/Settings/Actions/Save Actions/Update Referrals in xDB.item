@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {7AAAA817-6D65-4C25-8467-398B5240AE47}
+database: master
+path: /sitecore/system/Modules/Web Forms for Marketers/Settings/Actions/Save Actions/Update Referrals in xDB
+parent: {E5EABB1F-40BC-45BB-8D87-3B6C239B521B}
+name: Update Referrals in xDB
+master: {9D2B5542-F674-44A3-B607-947BFABDA5B2}
+template: {E01318E7-CEED-4EA4-B107-1B8FAC3A3DB8}
+templatekey: Submit Action
+
+----field----
+field: {2A29BFAC-1CD0-4AC9-9053-19BE2473200D}
+name: Assembly
+key: assembly
+content-length: 23
+
+JetStream.xDBExtensions
+----field----
+field: {F062D792-ECDE-41EB-811F-9CC68F7B4082}
+name: Class
+key: class
+content-length: 54
+
+JetStream.xDBExtensions.WFFM.Actions.SaveReferralToxDB
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+Office/32x32/hammer.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1000
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 085b42cc-5a31-41fe-961d-48954af0a060
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160217T184640Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+085b42cc-5a31-41fe-961d-48954af0a060
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160219T201116Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

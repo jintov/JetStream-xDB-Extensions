@@ -1,0 +1,408 @@
+----item----
+version: 1
+id: {023E2797-B3A5-4FFF-BA5B-C24F6B637493}
+database: master
+path: /sitecore/system/Modules/Web Forms for Marketers/Website/Registration Form
+parent: {F1F7AAB6-C8CE-422F-A214-F610C109FA63}
+name: Registration Form
+master: {00000000-0000-0000-0000-000000000000}
+template: {FFB1DA32-2764-47DB-83B0-95B843546A7E}
+templatekey: Form
+
+----field----
+field: {A42052F7-6C18-424A-A2A1-7A72054CB1A6}
+name: Show Title
+key: show title
+content-length: 0
+
+
+----field----
+field: {46FB324A-9741-43BD-A0C9-5081A39D40AA}
+name: Show Introduction
+key: show introduction
+content-length: 0
+
+
+----field----
+field: {FAEACD39-B059-4F46-BEC4-74BA468A97B8}
+name: Show Footer
+key: show footer
+content-length: 0
+
+
+----field----
+field: {A7F779B9-5FCF-45CC-866B-7C973F5C4FAC}
+name: Save Actions
+key: save actions
+content-length: 7654
+
+<?xml version="1.0" encoding="utf-16"?>
+<li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+    <li id="{0BC5518C-8132-48D6-85A8-1A6F411BDB22}" unicid="C4C05CBB660D44689CCFB575BC0548F0">
+      <parameters>&amp;lt;defaultprofileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/defaultprofileitemid&amp;gt;&amp;lt;usernamefield&amp;gt;{12187540-6102-4A51-9928-5BA205B0C62B}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;extranet&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;passwordfield&amp;gt;{1F94A3E2-0AA8-404D-8A4D-81E3117621CF}&amp;lt;/passwordfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;&amp;lt;overwriteprofile&amp;gt;True&amp;lt;/overwriteprofile&amp;gt;&amp;lt;mapping&amp;gt;&amp;lt;data&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice0&amp;quot; fieldid=&amp;quot;{12187540-6102-4A51-9928-5BA205B0C62B}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice0&amp;quot; fieldid=&amp;quot;Email&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice1&amp;quot; fieldid=&amp;quot;{12187540-6102-4A51-9928-5BA205B0C62B}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice1&amp;quot; fieldid=&amp;quot;Name&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice2&amp;quot; fieldid=&amp;quot;{6C7C26D2-9CBF-400B-8788-FC7AF3F5F5F7}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice2&amp;quot; fieldid=&amp;quot;FirstName&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice3&amp;quot; fieldid=&amp;quot;{59B127C3-5C77-41E8-B98B-A9D1C7EA941C}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice3&amp;quot; fieldid=&amp;quot;LastName&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice4&amp;quot; fieldid=&amp;quot;{D98644AB-780E-4BB3-A2FA-F21ADFF5A6AF}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice4&amp;quot; fieldid=&amp;quot;Address1&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice5&amp;quot; fieldid=&amp;quot;{D2EB803F-E800-483A-A3E1-45AA1372BDE2}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice5&amp;quot; fieldid=&amp;quot;Address2&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice6&amp;quot; fieldid=&amp;quot;{47E145C6-D6E9-46C5-9D26-24AFB00C54F1}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice6&amp;quot; fieldid=&amp;quot;City&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice7&amp;quot; fieldid=&amp;quot;{BB2D2B17-86C1-4145-839A-11B5A4826AAA}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice7&amp;quot; fieldid=&amp;quot;PostalCode&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice8&amp;quot; fieldid=&amp;quot;{6CBE1CF2-4342-4124-8ABB-D2F305406AD1}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice8&amp;quot; fieldid=&amp;quot;Country&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice9&amp;quot; fieldid=&amp;quot;{23B1C331-4564-42DF-A56E-6743951EA21A}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice9&amp;quot; fieldid=&amp;quot;StateProvince&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice10&amp;quot; fieldid=&amp;quot;{3AACAFE0-D58F-4BCF-BFBD-2A50E5D60B0F}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice10&amp;quot; fieldid=&amp;quot;Interests&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;/data&amp;gt;&amp;lt;/mapping&amp;gt;&amp;lt;profileitemid&amp;gt;{87ADC2B4-E25A-4624-A26D-2E738275A277}&amp;lt;/profileitemid&amp;gt;</parameters>
+    </li>
+    <li id="{5D54629B-25A4-4107-B614-26F504830335}" unicid="2BEE24A4CB3E482BB6FA90818F725270">
+      <parameters>&amp;lt;mapping&amp;gt;[{&amp;quot;key&amp;quot;:&amp;quot;6C7C26D2-9CBF-400B-8788-FC7AF3F5F5F7&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/FirstName&amp;quot;},{&amp;quot;key&amp;quot;:&amp;quot;59B127C3-5C77-41E8-B98B-A9D1C7EA941C&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Surname&amp;quot;},{&amp;quot;key&amp;quot;:&amp;quot;12187540-6102-4A51-9928-5BA205B0C62B&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Emails/Entries/SmtpAddress&amp;quot;},{&amp;quot;key&amp;quot;:&amp;quot;D98644AB-780E-4BB3-A2FA-F21ADFF5A6AF&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Addresses/Entries/StreetLine1&amp;quot;},{&amp;quot;key&amp;quot;:&amp;quot;D2EB803F-E800-483A-A3E1-45AA1372BDE2&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Addresses/Entries/StreetLine2&amp;quot;},{&amp;quot;key&amp;quot;:&amp;quot;47E145C6-D6E9-46C5-9D26-24AFB00C54F1&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Addresses/Entries/City&amp;quot;},{&amp;quot;key&amp;quot;:&amp;quot;23B1C331-4564-42DF-A56E-6743951EA21A&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Addresses/Entries/StateProvince&amp;quot;},{&amp;quot;key&amp;quot;:&amp;quot;BB2D2B17-86C1-4145-839A-11B5A4826AAA&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Addresses/Entries/PostalCode&amp;quot;},{&amp;quot;key&amp;quot;:&amp;quot;6CBE1CF2-4342-4124-8ABB-D2F305406AD1&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Addresses/Entries/Country&amp;quot;}]&amp;lt;/mapping&amp;gt;</parameters>
+    </li>
+    <li id="{1B8ED61B-5B36-4C49-9736-2C4A87795D71}" unicid="B6E4D1CFF0BD4A1388B5688271B23855">
+      <parameters>&amp;lt;engagementstate&amp;gt;6f4c1040-b47a-48e8-9b53-a9336a4fe377&amp;lt;/engagementstate&amp;gt;&amp;lt;enrollwhen&amp;gt;Always&amp;lt;/enrollwhen&amp;gt;&amp;lt;__actionsubtitle&amp;gt;{3AD74ACC-D9A9-4371-BC9A-7D3A9512E895}&amp;lt;/__actionsubtitle&amp;gt;</parameters>
+    </li>
+    <li id="{1B8ED61B-5B36-4C49-9736-2C4A87795D71}" unicid="734853054B0548AE94E99CFF1C865D5D">
+      <parameters>&amp;lt;engagementstate&amp;gt;F7B236F8-8927-47F3-8D48-DBED20A10BD9&amp;lt;/engagementstate&amp;gt;&amp;lt;enrollwhen&amp;gt;{3AACAFE0-D58F-4BCF-BFBD-2A50E5D60B0F}Skiing&amp;lt;/enrollwhen&amp;gt;&amp;lt;__actionsubtitle&amp;gt;{C154A8FF-C444-47C5-B2D0-89798DEF27D1}&amp;lt;/__actionsubtitle&amp;gt;</parameters>
+    </li>
+    <li id="{F7C77EDC-B7F8-4ACB-8510-9C5795E388E8}" unicid="677EDC53306D4809B5034746AA528E52">
+      <parameters>&amp;lt;points&amp;gt;20&amp;lt;/points&amp;gt;</parameters>
+    </li>
+    <li id="{3E158880-47F3-4B0E-811B-605809C18165}" unicid="468C660366E64DB3B6B7598D01CD6359">
+      <parameters>&amp;lt;&amp;gt;&amp;lt;#text&amp;gt;lt;selectedsitecoreitem&amp;lt;/#text&amp;gt;&amp;lt;gt;{4f8ce33c-a349-44a6-b627-96c8c529d301}&amp;gt;lt;/selectedsitecoreitem&amp;lt;/gt;{4f8ce33c-a349-44a6-b627-96c8c529d301}&amp;gt;&amp;lt;selectedsitecoreitem&amp;gt;{4F8CE33C-A349-44A6-B627-96C8C529D301}&amp;lt;/selectedsitecoreitem&amp;gt;</parameters>
+    </li>
+    <li id="{7AAAA817-6D65-4C25-8467-398B5240AE47}" unicid="6BFE28EE0A5849E0AA16A48C1AB3E40F">
+      <parameters />
+    </li>
+    <li id="{E37E12E6-9FCC-4E04-9A57-DDEDC5483C26}" unicid="B153D430EEFE40AD8FBB1CF3127B3434">
+      <parameters />
+    </li>
+  </g>
+</li>
+----field----
+field: {AF08C32B-F101-44A4-BAAE-677383E8EB02}
+name: Check Actions
+key: check actions
+content-length: 1242
+
+<?xml version="1.0" encoding="utf-16"?>
+<li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <g id="{10FE9225-5E6C-4896-9CD2-880D6D48C4CC}" displayName="Check Actions">
+    <li id="{2D5B5061-747A-4477-BD41-E746EAFEB231}" unicid="89F18F7C96F4469A9470057CE421A115">
+      <parameters />
+    </li>
+    <li id="{C9CA17D5-1DCC-4C4E-BA16-8B06E2772268}" unicid="BA5BC50F819A4BB3AF98A755A7111D7F">
+      <parameters>&amp;lt;failedmessage&amp;gt;The user does not exist&amp;lt;/failedmessage&amp;gt;&amp;lt;usernamefield&amp;gt;{12187540-6102-4A51-9928-5BA205B0C62B}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;extranet&amp;lt;/domainfield&amp;gt;&amp;lt;failwhen&amp;gt;Confirmed&amp;lt;/failwhen&amp;gt;</parameters>
+    </li>
+    <li id="{C9CA17D5-1DCC-4C4E-BA16-8B06E2772268}" unicid="D59CE6B4C8484B4991173C3F7E14409E">
+      <parameters>&amp;lt;failedmessage&amp;gt;The user does not exist&amp;lt;/failedmessage&amp;gt;&amp;lt;usernamefield&amp;gt;{12187540-6102-4A51-9928-5BA205B0C62B}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;crm&amp;lt;/domainfield&amp;gt;&amp;lt;failwhen&amp;gt;Confirmed&amp;lt;/failwhen&amp;gt;</parameters>
+    </li>
+  </g>
+</li>
+----field----
+field: {D755DE87-9C62-4EB3-83DC-2293784A3A3F}
+name: Success Mode
+key: success mode
+content-length: 38
+
+{F4D50806-6B89-4F2D-89FE-F77FC0A07D48}
+----field----
+field: {87B37B02-BA9E-4464-AB4E-50737BB1D06E}
+name: User Profile
+key: user profile
+content-length: 38
+
+{87ADC2B4-E25A-4624-A26D-2E738275A277}
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 788
+
+<tracking>
+  <event name="Submit Success Event" id="{2FF08489-2A47-4F04-8D8E-0C25A294B2C4}" />
+  <event name="Form Submit" id="{A2C2CF51-9360-4084-9BA0-1A15F1A41096}" />
+  <event name="Field Completed" id="{F0113A93-570A-4F69-8C7C-BA08037D1E34}" />
+  <event name="Field Not Completed" id="{7E86B2F5-ACEC-4C60-8922-4EB5AE5D9874}" />
+  <event name="Field Out of Boundary" id="{F3D7B20C-675C-4707-84CC-5E5B4481B0EE}" />
+  <event name="Form Check Action Error" id="{7144C4C9-E56A-4529-B3C1-A1DEDC454AB8}" />
+  <event name="Form Save Action Failure" id="{DE302E25-E5AF-465E-8BB1-5C3E8145615D}" />
+  <event name="Invalid Field Syntax" id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
+  <event name="Registration Form Completed" id="{BE7CD314-2863-47E1-AC19-4E8DE716014F}" />
+</tracking>
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 315
+
+<r  xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}" l="{A57C19C2-8EE3-4DEC-AA39-0B8D522D59EB}"><r id="{86F838F5-7E87-45BB-876F-C021324AC8B0}" par="TitleField=Title&amp;BodyField=Introduction&amp;DateField=__Updated" uid="{565CD73D-AD95-4F2C-B78D-EC3D565728EB}" /></d></r>
+----version----
+language: da
+version: 1
+revision: 89531628-b15e-44c2-8b8c-3f9a4df00aab
+
+----field----
+field: {86D6A401-5A20-49C9-A2F8-0312398EE946}
+name: Title
+key: title
+content-length: 12
+
+Registrering
+----field----
+field: {0F2414BD-A95D-419C-A238-A6637A3FAB76}
+name: Introduction
+key: introduction
+content-length: 193
+
+Use this property to display a short description or any instructions, notes, or guidelines that the visitor should read when filling out the form. This will appear directly below the form name.
+----field----
+field: {95968A5A-DB52-4F50-B471-C6C7DA81F7E8}
+name: Footer
+key: footer
+content-length: 203
+
+Use this property to display a short description or any instructions, notes, or guidelines that the visitor should read when filling out the form. This will appear directly below the content of the form.
+----field----
+field: {B71296B6-32B9-4703-A8CB-FB7437271103}
+name: Name
+key: name
+content-length: 4
+
+Send
+----field----
+field: {4E2DC894-59A2-49BB-A49C-562F611169A2}
+name: Success Message
+key: success message
+content-length: 74
+
+Din konto er blevet oprettet. Log ind på sitet i menuen i toppen af siden.
+----field----
+field: {9C4C1994-5140-49D3-BAD7-DB997816F816}
+name: Success Page
+key: success page
+content-length: 60
+
+<link url="/" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+----field----
+field: {53AFF40D-E61F-43DC-96D6-A5C7F4882E20}
+name: Save Action Failed Message
+key: save action failed message
+content-length: 116
+
+Der opstod et problem da vi forsøgte at gemme dine informationer. Informationerne er måske ikke blevet gemt korrekt.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120530T063200
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+89531628-b15e-44c2-8b8c-3f9a4df00aab
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131223T154406:635234102464470577
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 808219b9-2f41-4bb4-9cc0-e1847fa97a44
+
+----field----
+field: {86D6A401-5A20-49C9-A2F8-0312398EE946}
+name: Title
+key: title
+content-length: 12
+
+Registration
+----field----
+field: {0F2414BD-A95D-419C-A238-A6637A3FAB76}
+name: Introduction
+key: introduction
+content-length: 74
+
+		<p>If you already have an account please logon from our home page.</p>
+
+----field----
+field: {95968A5A-DB52-4F50-B471-C6C7DA81F7E8}
+name: Footer
+key: footer
+content-length: 71
+
+		<p>The text you enter here is displayed at the end of the form.</p>
+
+----field----
+field: {B71296B6-32B9-4703-A8CB-FB7437271103}
+name: Name
+key: name
+content-length: 13
+
+Register User
+----field----
+field: {4E2DC894-59A2-49BB-A49C-562F611169A2}
+name: Success Message
+key: success message
+content-length: 78
+
+Your account has been created. Return to the home page to login to our site.  
+----field----
+field: {9C4C1994-5140-49D3-BAD7-DB997816F816}
+name: Success Page
+key: success page
+content-length: 128
+
+<link text='' linktype='internal' class='' alt='' target='_parent' querystring='' id='{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}' />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080617T114400
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+808219b9-2f41-4bb4-9cc0-e1847fa97a44
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160219T201654Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 25867ca0-27cf-4d78-9873-04616f2ec625
+
+----field----
+field: {86D6A401-5A20-49C9-A2F8-0312398EE946}
+name: Title
+key: title
+content-length: 10
+
+アカウントを作成する
+----field----
+field: {0F2414BD-A95D-419C-A238-A6637A3FAB76}
+name: Introduction
+key: introduction
+content-length: 44
+
+<p>すでにアカウントをお持ちの場合には、ホームページからログオンしてください。</p>
+----field----
+field: {95968A5A-DB52-4F50-B471-C6C7DA81F7E8}
+name: Footer
+key: footer
+content-length: 37
+
+<p>ここで入力したテキストは、このフォームの末尾に表示されます。</p>
+----field----
+field: {B71296B6-32B9-4703-A8CB-FB7437271103}
+name: Name
+key: name
+content-length: 11
+
+マイ アカウントを作成
+----field----
+field: {4E2DC894-59A2-49BB-A49C-562F611169A2}
+name: Success Message
+key: success message
+content-length: 39
+
+アカウントが作成されました。ホームページに戻ってサイトにログインしてください。
+----field----
+field: {9C4C1994-5140-49D3-BAD7-DB997816F816}
+name: Success Page
+key: success page
+content-length: 80
+
+<link url="/" linktype="internal" id="{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}" />
+----field----
+field: {53AFF40D-E61F-43DC-96D6-A5C7F4882E20}
+name: Save Action Failed Message
+key: save action failed message
+content-length: 45
+
+要求の処理中に技術上の問題が発生しました。データが正常に保存されていない可能性があります。
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20111108T165300
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25867ca0-27cf-4d78-9873-04616f2ec625
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131223T154202:635234101224020577
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
